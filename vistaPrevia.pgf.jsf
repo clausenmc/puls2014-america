@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link type="text/css" rel="stylesheet" href="/PTSC/inscurp/faces/javax.faces.resource/theme.css?ln=primefaces-satgris" /><link type="text/css" rel="stylesheet" href="/PTSC/inscurp/faces/javax.faces.resource/primefaces.css?ln=primefaces" /><script type="text/javascript" src="/PTSC/inscurp/faces/javax.faces.resource/jquery/jquery.js?ln=primefaces"></script><script type="text/javascript" src="/PTSC/inscurp/faces/javax.faces.resource/primefaces.js?ln=primefaces"></script><script type="text/javascript" src="/PTSC/inscurp/faces/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces"></script>
+         <script language="javascript">
+                function ejecutarBoton() {
+                    $(".botonEjecutar").trigger("click");
+                }
+        </script></head><body onload="ejecutarBoton();statusDialog.show()"><div id="j_idt7"></div><script id="j_idt7_s" type="text/javascript">PrimeFaces.cw('AjaxStatus','widget_j_idt7',{id:'j_idt7'});widget_j_idt7.bindCallback('ajaxStart',function(){statusDialog.show();});widget_j_idt7.bindCallback('ajaxSuccess',function(){statusDialog.hide();});</script><div id="j_idt8" class="ui-dialog ui-widget ui-widget-content ui-overlay-hidden ui-corner-all ui-shadow"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="j_idt8_title" class="ui-dialog-title">Espere...</span></div><div class="ui-dialog-content ui-widget-content"><img id="j_idt9" src="/PTSC/inscurp/resources/images/ajaxloadingbar.gif" alt="" /></div></div><script id="j_idt8_s" type="text/javascript">$(function(){PrimeFaces.cw('Dialog','statusDialog',{id:'j_idt8',draggable:false,resizable:false,modal:true,position:'190,230'});});</script>
+<form id="j_idt10" name="j_idt10" method="post" action="/PTSC/inscurp/faces/vistaPrevia.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt10" value="j_idt10" />
+
+           
+               <div style="height:250px;"></div>
+               <div align="center"><button id="j_idt10:j_idt12" name="j_idt10:j_idt12" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only botonEjecutar" onclick="this.form.target='_self';;" style="width:200px;border: none;cursor:default;" type="submit"><span class="ui-button-text ui-c">Generando vista previa...</span></button><script id="j_idt10:j_idt12_s" type="text/javascript">PrimeFaces.cw('CommandButton','widget_j_idt10_j_idt12',{id:'j_idt10:j_idt12'});</script>
+                                 
+                </div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1100153456286991825:-4396170478777809855" autocomplete="off" />
+</form></body>
+    </html>
